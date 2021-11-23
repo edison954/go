@@ -33,8 +33,21 @@ import "fmt"
 
 func main() {
 	nb, err := fmt.Println("Hello, Edison")
-	fmt.Println(nb, err)
+	//fmt.Println(nb, err)
+	_, _ = fmt.Println(nb, err)
 }
+```
+
+Operador declaracion corta
+
+...Tipo
+
+```
+//...interface{}    (todos los tipos en Go implementan la interfaz vacia)
+
+	fmt.Println("Hola", 42, true)
+
+
 ```
 
 
