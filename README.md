@@ -51,3 +51,26 @@ Operador declaracion corta
 ```
 
 
+verbos
+
+
+```
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+var a int
+var b string = "hola"
+var c bool
+
+func main() {
+	fmt.Println("Hello", a, b, c)
+	fmt.Printf("El valor de la variable a es: %v\n", a)
+	fmt.Printf("El valor de la variable a es: %v\n", b)
+	fmt.Printf("El valor de la variable a es: %v\n", c)
+}
+```
+
+
