@@ -62,7 +62,7 @@ package main
 import "fmt"
 
 var a int
-var b string = "hola"
+var b string = "Programa"
 var c bool
 
 func main() {
@@ -70,6 +70,9 @@ func main() {
 	fmt.Printf("El valor de la variable a es: %v\n", a)
 	fmt.Printf("El valor de la variable a es: %v\n", b)
 	fmt.Printf("El valor de la variable a es: %v\n", c)
+
+	s1 := fmt.Sprint("El", b, "dice", " Hola mundo")
+	fmt.Println(s1)
 }
 ```
 
