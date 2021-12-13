@@ -77,3 +77,36 @@ func main() {
 ```
 
 
+hola edison:
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello Edison Arley")
+}
+
+```
+go run main.go
+
+
+go mux  --->> modulo para crear rutas
+
+https://github.com/gorilla/mux
+
+go get -u github.com/gorilla/mux
+
+go mod init example/restapiconcept  
+
+
+https://github.com/githubnemo/CompileDaemon   --> para mentener el servidor ejecutando
+
+~/go/bin/CompileDaemon
+
+~/go/bin/CompileDaemon -command="./restapiconcept"  			--> mantener la compilacionj
+
+sudo nano /etc/paths.
